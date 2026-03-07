@@ -1,0 +1,15 @@
+# Route all requests to router.php (except existing files and directories)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # If your app is in a subdirectory (e.g. public_html/myapp), set RewriteBase to that path:
+    # RewriteBase /myapp/
+    RewriteBase /
+
+    # Serve existing files and directories as-is (CSS, JS, images, etc.)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Send everything else to router.php
+    RewriteRule ^(.*)$ router.php [L]
+</IfModule>

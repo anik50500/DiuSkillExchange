@@ -1,0 +1,18 @@
+[
+    {
+        "course_id": 1,
+        "title": "Python Hello World",
+        "content": "print(\"Hello, World!\")",
+        "order_index": 0,
+        "id": 1,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=t2_Q2BRzeEE"
+    },
+    {
+        "course_id": 1,
+        "title": "Python Getting Started",
+        "content": "Python Quickstart\r\nPython is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.\r\n\r\nLet's write our first Python file, called hello.py, which can be done in any text editor:\r\n\r\nhello.py:\r\n\r\nprint(\"Hello, World!\")\r\nSimple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:\r\n\r\nC:\\Users\\Your Name>python hello.py\r\nThe output should be:\r\n\r\nHello, World!\r\nCongratulations, you have written and executed your first Python program.",
+        "order_index": 1,
+        "id": 2,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=lIId8IDP6TU"
+    }
+]
